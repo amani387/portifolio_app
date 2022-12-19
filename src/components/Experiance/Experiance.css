@@ -1,0 +1,114 @@
+.experiance__container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+
+}
+.experiance__container>div{
+    background: var(--color-bg-variant);
+    padding:2.4rem 5rem;
+    border-radius:9rem;
+    border:1px solid transparent;
+   transition: var(--transition);
+}
+.experiance__container>div:hover{
+    background:transparent;
+   border-color: var(--color-primary-variant);
+
+}
+.experiance__container >div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color:var(--color-primary)
+}
+.experiance__content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+.experiance__details{
+    display:flex;
+    gap:2rem;
+}
+header{
+    height: 100vh;
+    padding-top:7rem;
+    overflow: hidden;
+}
+.header__container{
+    text-align:center;
+    height: 100%;
+    position: relative;
+}
+/*==========================CTA=============*/
+
+.cta{
+    margin: top 2.5rem;
+    display:flex;
+    gap:1.2rem;
+    justify-content: center;
+}
+/*==========================For the socials=============*/
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position:absolute;
+    left:0;
+bottom:3rem;
+}
+.header__socials::after{
+content: "";
+width:1px;
+height:2rem;
+background: var(--color-primary)
+
+}
+/*==========================For the socials=============*/
+.me{
+    background:linear-gradient(var(--color-primary),transparent);
+    width:22rem;
+    height:30rem;
+    position:absolute;
+    left:50%;
+    transform: translate(-160px);
+    margin-top:4rem;
+    border-radius: 12rem 1rem 10rem 1rem;
+    overflow:hidden;
+    padding:5rem 1.5rem 1.5;
+}
+/*==========================For the scroll down =============*/
+.scroll__down {
+    position:absolute;
+    right:-2.3rem;
+    bottom:5rem;
+    transform:rotate(90deg);
+    font-weight:300;
+    font-size:1.0rem
+
+}
+/*===MEDIA QUERIES FOR MEDIUM DEVISES*/
+@media screen and(max-width:1024px){
+.experiance__container{
+    grid-template-columns: 1fr;
+
+}
+.experiance__container > div{
+    width:80%;
+    padding:2rem;
+    margin:0 auto;
+}
+.experiance__content{
+    padding:1rem;
+}
+}
+/*===MEDIA QUERIES FOR MEDIUM DEVISES*/
+@media screen and(max-width:600px){
+    .experiance__container{
+        gap: 1rem;
+    }
+}
