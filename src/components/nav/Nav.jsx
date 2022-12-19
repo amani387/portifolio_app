@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     
    <nav>
-    <a href="#" className={state==="#" ? "active" : ""}><AiOutlineHome/></a>
+    <a href="#home" onClick={()=>setState("#home")} className={state==='#home' ? "active" : ""}><AiOutlineHome/></a>
     <a href="#about" onClick={()=>setState("#about")} className={state==="#about" ? "active" : ""}><FcAbout/></a>
     <a href="#experiance" onClick={()=>setState("#experiance")} className={state==="#experiance" ? "active" : ""}><FcSalesPerformance/></a>
     <a href="#services" onClick={()=>setState("#services")} className={state==="#services"?"active":""}><FaServicestack/></a>
