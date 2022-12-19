@@ -1,0 +1,13 @@
+.portfolio__container{
+    background: var(--color-bg-variant);
+    border:1px solid transparent;
+    border-radius:2rem;
+    padding:2rem;
+    text-align: center;
+    transition:var(--transition);
+    margin: 9px;
+    transition:var(--transition)
+}
+.portfolio__container:hover{
+    background: transparent;
+}

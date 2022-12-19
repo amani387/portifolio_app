@@ -92,7 +92,7 @@ background: var(--color-primary)
 
 }
 /*===MEDIA QUERIES FOR MEDIUM DEVISES*/
-@media screen and(max-width:1024px){
+@media screen and (max-width:1024px){
 .experiance__container{
     grid-template-columns: 1fr;
 
@@ -107,7 +107,7 @@ background: var(--color-primary)
 }
 }
 /*===MEDIA QUERIES FOR MEDIUM DEVISES*/
-@media screen and(max-width:600px){
+@media screen and (max-width:600px){
     .experiance__container{
         gap: 1rem;
     }

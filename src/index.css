@@ -11,7 +11,7 @@
 :root{
     --color-bg:#041225;
      --color-bg-variant:rgba(77,181,255,0.4);
-     --color-primary:#4db5ff;
+     --color-primary:#9c0000;
      --color-primary-variant:rgba(77,181,255,0.4);
      --color-white:#fff;
      --color-light:rgba(255,255,255,0.6);
@@ -93,7 +93,7 @@ img{
     object-fit: cover;
 }
 /*======== MEDIA QUERIES FOR MEDIUM DEVICES*/
-@media screen and(max-width:1024px){
+@media screen and (max-width:1024px){
     .container{
         width:var(--container-width-md)
     }
@@ -103,7 +103,7 @@ img{
 
 }
 /*======== MEDIA QUERIES FOR SMALL DEVICES*/
-@media screen and(max-width:600px){
+@media screen and (max-width:600px){
     .container{
         width:var(--container-width-md)
     }
