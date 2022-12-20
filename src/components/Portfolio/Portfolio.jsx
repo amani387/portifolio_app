@@ -3,7 +3,7 @@ import './Portfolio.css'
 import Proto1 from '../../assets/port1.jpg'
 import Proto2 from '../../assets/port2.webp'
 import Proto3 from '../../assets/port52.jpg'
-import Proto4 from '../../assets/port3.webp'
+import Proto4 from '../../assets/port3.jpg'
 import Proto5 from '../../assets/port4.webp'
 import Proto6 from '../../assets/port6.webp'
 
@@ -32,7 +32,7 @@ demo:'https://guileless-crisp-5b2a7d.netlify.app/'
 {
   id:4,
   image:Proto4,
-  title:'orthodox priest teaching a student',
+  title:'my beutyfulfre sis ',
   github:'https://github.com',
 demo:'https://guileless-crisp-5b2a7d.netlify.app/'
 },
