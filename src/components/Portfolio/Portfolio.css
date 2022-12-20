@@ -1,13 +1,49 @@
+#portfolio{
+  border-top: 1px solid ;
+  border-style: solid;
+  border-top-color:rgb(234, 3, 3)
+}
+
 .portfolio__container{
-    background: var(--color-bg-variant);
-    border:1px solid transparent;
-    border-radius:2rem;
-    padding:2rem;
-    text-align: center;
-    transition:var(--transition);
-    margin: 9px;
-    transition:var(--transition)
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  gap:2.5rem; 
 }
-.portfolio__container:hover{
-    background: transparent;
+.portfolio__item{
+background: var(--color-bg-variant);
+padding:1.2rem;
+border-radius: 2rem;
+border:1px solid transparent;
+transition: var(--transition);
 }
+.portfolio__item:hover{
+  background: transparent;
+}
+.portfolio__item-image{
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.portfolio__item h3{
+  margin:1.2rem 0 2rem;
+}
+.portfolio__item-cta{
+  display: flex;
+  gap:1rem;
+  margin-bottom:1rem ;
+}
+/*===MEDIA QUERIES FOR MEDIUM DEVISES*/
+@media screen and (max-width:1024px){
+  .portfolio__container{
+    grid-template-columns: 1fr 1fr;
+    gap:1.2rem;
+  }
+
+  }
+  /*===MEDIA QUERIES FOR MEDIUM DEVISES*/
+  @media screen and (max-width:600px){
+.portfolio__container{
+  grid-template-columns:1fr;
+  gap:1rem;
+}
+  }
+/* 2:11:5 */

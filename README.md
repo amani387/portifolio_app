@@ -1,7 +1,6 @@
-# portfolio
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-bhbh
+This portfolio project is my showcase that shows the project i have done before. 
 
 ## Available Scripts
 
@@ -15,6 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+#Deployment
+
+Live deom [Protfolio](https://guileless-crisp-5b2a7d.netlify.app)
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
