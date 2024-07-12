@@ -1,0 +1,76 @@
+/* Footer CSS */
+.footer {
+    background: var(--color-bg);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__logo {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__socials a {
+    color: var(--color-light);
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.footer__socials a:hover {
+    color: var(--color-primary);
+}
+
+.footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.footer__links a {
+    color: var(--color-light);
+    transition: var(--transition);
+}
+
+.footer__links a:hover {
+    color: var(--color-primary);
+}
+
+.footer__copyright {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: var(--color-light);
+}
+
+/*===MEDIA QUERIES===*/
+@media screen and (max-width: 1024px) {
+    .footer__container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__socials {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

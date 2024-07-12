@@ -1,0 +1,151 @@
+/* Contacts Section */
+#contacts {
+    padding: 2rem;
+    text-align: center;
+}
+
+#contacts h2 {
+    margin-bottom: 1rem;
+}
+
+#contacts button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+#contacts button:hover {
+    background-color: var(--color-primary-variant);
+}
+
+/* Modal CSS */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.modal__content {
+    background: var(--color-bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+}
+
+.modal__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-light);
+}
+
+.modal__content h3 {
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.modal__content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__content label {
+    margin: 0.5rem 0;
+    color: var(--color-light);
+}
+
+.modal__content input,
+.modal__content textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 0.5rem;
+    background: var(--color-bg-variant);
+    color: var(--color-light);
+}
+
+.modal__content button {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.modal__content button:hover {
+    background-color: var(--color-primary-variant);
+}
+
+/* Popup CSS */
+.popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1001;
+}
+
+.popup__content {
+    background: var(--color-bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.popup__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-light);
+}
+
+.popup__content h3 {
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.popup__content p {
+    margin: 0;
+    color: var(--color-light);
+}
+
+/*===MEDIA QUERIES===*/
+@media screen and (max-width: 600px) {
+    .modal__content {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .popup__content {
+        width: 90%;
+        padding: 1rem;
+    }
+}
