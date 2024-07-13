@@ -1,39 +1,40 @@
 import React from 'react'
 import './Portfolio.css'
-import Proto1 from '../../assets/port1.jpg'
-import Proto2 from '../../assets/port2.webp'
-import Proto3 from '../../assets/port52.jpg'
-import Proto4 from '../../assets/port3.jpg'
+import Proto1 from '../../assets/ARMPE.png'
+import Proto2 from '../../assets/hita.png'
+import Proto3 from '../../assets/memuya.png'
+import Proto4 from '../../assets/mekdi.jpg'
 import Proto5 from '../../assets/port4.webp'
 import Proto6 from '../../assets/port6.webp'
 
 const data = [{
   id:1,
   image:Proto1,
-  title:'Ethiopian_beauty',
-  github:'https://github.com',
+  title:'Agricultural machinery Rental System which is done using MERN and material ui',
+  github:'https://githubhttps://github.com/amani387?tab=repositories',
 demo:'https://guileless-crisp-5b2a7d.netlify.app/'
 }
 ,
 {
   id:2,
   image:Proto2,
-  title:'Hammer Girl',
-  github:'https://github.com',
+  title:'Harari Innovation Technology Agency beuruea system',
+  github:'https://github.com/amani387?tab=repositories',
 demo:'https://guileless-crisp-5b2a7d.netlify.app/'
 },
 {
   id:3,
   image:Proto3,
-  title:'Ethiopian Orthodox monk',
-  github:'https://github.com',
+  title:'Memuya mobile app done using flutter',
+  github:'https://github.com/amani387?tab=repositories',
 demo:'https://guileless-crisp-5b2a7d.netlify.app/'
 },
 {
   id:4,
-  image:Proto4,
-  title:'my beutyfulfre sis ',
-  github:'https://github.com',
+  image:Proto4,Proto1,
+  
+  title:'A beauty Saloon Logo that i have made and implimented ',
+  github:'https://github.com/amani387?tab=repositories',
 demo:'https://guileless-crisp-5b2a7d.netlify.app/'
 },
 {
