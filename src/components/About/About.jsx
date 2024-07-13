@@ -40,11 +40,7 @@ const About = () => {
 <p>Amanuel nega is an
    awesome designer and web developer
    
-   If you’re 
-    
-    looking for a source of design inspiration
-  
-  , you’re in the right place.
+   If you’re looking for a source of design inspiration , you’re in the right place.
 
 </p>
 <Cta/>
