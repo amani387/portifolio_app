@@ -11,6 +11,7 @@ const Headersocial = () => {
     </div>
   )
 }
+
 /*
 <a href="https://www.instagram.com/beba387aman" target="_blank" rel="noopener noreferrer">Instagram</a>
           <a href="https://www.linkedin.com/in/amanuel-nega-533353246" target="_blank" rel="noopener noreferrer">LinkedIn</a>

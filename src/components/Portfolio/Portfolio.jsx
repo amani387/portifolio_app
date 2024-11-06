@@ -6,6 +6,8 @@ import Proto3 from '../../assets/memuya.png'
 import Proto4 from '../../assets/mekdi.jpg'
 import Proto5 from '../../assets/port4.webp'
 import Proto6 from '../../assets/port6.webp'
+import Proto7 from '../../assets/aman_mern_blog.png'
+import Proto8 from '../../assets/aman_next_blog.png'
 
 const data = [{
   id:1,
@@ -49,7 +51,22 @@ demo:'https://guileless-crisp-5b2a7d.netlify.app/'
   image:Proto6,
   title:'Ethiopian_beauty',
   github:'https://github.com',
-demo:'https://guileless-crisp-5b2a7d.netlify.app/'
+  demo:'https://guileless-crisp-5b2a7d.netlify.app/'
+},
+{
+  id:7,
+  image:Proto7,
+  title:'Blog App using mern-stack',
+  github:'https://github.com',
+  demo:'https://mern-blog-application-kfqi.onrender.com'
+}
+,
+{
+  id:8,
+  image:Proto8,
+  title:'Blog App using Next js',
+  github:'https://github.com',
+  demo:'https://next-js-blog-app-a32g.vercel.app/'
 }
 ]
 const Portfolio = () => {
