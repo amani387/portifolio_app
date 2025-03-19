@@ -1,0 +1,57 @@
+/* Personal Documents Section */
+#documents {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: var(--color-bg-variant);
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+  #documents h2 {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+  }
+  
+  .documents__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .documents__container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .document__item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--color-bg);
+    border-radius: 0.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .document__item:hover {
+    background: var(--color-primary-variant);
+  }
+  
+  .document__item a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .document__item a:hover {
+    color: var(--color-primary);
+  }
+  
+  .download__icon {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+  }
+  

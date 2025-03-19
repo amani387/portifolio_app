@@ -14,7 +14,7 @@
 .about__me-image{
     border-radius:2rem;
     overflow:hidden;
-    transform:rotate(10deg);
+    transform:rotate(15deg);
     transition: var(--transition);
     
 
@@ -56,9 +56,11 @@ margin-bottom:1rem;
     color:var(--color-light)
 }
 .about__content p{
-    margin:2rem o 2.6rem;
+
+        margin: 3rem 5px 2.2rem;
     color:var(--color-light);
 }
+
 /*===MEDIA QUERIES FOR MEDIUM DEVISES*/
 @media screen and (max-width:1024px){
     .about__container{
@@ -66,7 +68,7 @@ margin-bottom:1rem;
             gap:0;
         }
     .about__me{
-width:50%;
+width:60%;
 margin:2rem auto 4rem;
 
     }
@@ -82,7 +84,7 @@ margin:2rem auto 4rem;
     @media screen and (max-width:600px){
     .about__me{
         width:65%;
-        margin:0 auto 3rem ;
+        margin:0 auto 9rem ;
 
     }
     .about__cards{

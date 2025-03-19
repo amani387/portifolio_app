@@ -55,6 +55,33 @@ const Experiance = () => {
   </small>
   </div>
   </article>
+  <article className="experiance__details"> 
+  <BsFillBookmarkCheckFill className="experiance_detail-icon"/>
+  <div>
+  <h4>Next js</h4>
+  <small className="text-light">
+    experianced enough
+  </small>
+  </div>
+  </article>
+  <article className="experiance__details"> 
+  <BsFillBookmarkCheckFill className="experiance_detail-icon"/>
+  <div>
+  <h4>asp.net core mvc</h4>
+  <small className="text-light">
+    experianced enough
+  </small>
+  </div>
+  </article>
+  <article className="experiance__details"> 
+  <BsFillBookmarkCheckFill className="experiance_detail-icon"/>
+  <div>
+  <h4>flutter</h4>
+  <small className="text-light">
+   average
+  </small>
+  </div>
+  </article>
 </div>
       </div>
 {/* BACK END STARTS HERE  */}
@@ -65,7 +92,7 @@ const Experiance = () => {
   <article className="experiance__details"> 
   <BsFillBookmarkCheckFill className="experiance_detail-icon"/>
 <div>
-<h4>Node js</h4>
+<h4>Node js & Express</h4>
   <small className="text-light">
     experianced enough
   </small>
@@ -104,6 +131,33 @@ const Experiance = () => {
  <h4>Python</h4>
   <small className="text-light">
     experianced enough of python
+  </small>
+ </div>
+  </article>
+  <article className="experiance__details"> 
+  <BsFillBookmarkCheckFill className="experiance_detail-icon"/>
+ <div>
+ <h4>PostgreSQL</h4>
+  <small className="text-light">
+    experianced enough
+  </small>
+ </div>
+  </article>
+  <article className="experiance__details"> 
+  <BsFillBookmarkCheckFill className="experiance_detail-icon"/>
+ <div>
+ <h4>asp.net core</h4>
+  <small className="text-light">
+    experianced enough
+  </small>
+ </div>
+  </article>
+  <article className="experiance__details"> 
+  <BsFillBookmarkCheckFill className="experiance_detail-icon"/>
+ <div>
+ <h4>AI & ML </h4>
+  <small className="text-light">
+    average
   </small>
  </div>
   </article>

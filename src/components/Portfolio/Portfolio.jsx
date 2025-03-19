@@ -4,8 +4,8 @@ import Proto1 from '../../assets/ARMPE.png'
 import Proto2 from '../../assets/hita.png'
 import Proto3 from '../../assets/memuya.png'
 import Proto4 from '../../assets/mekdi.jpg'
-import Proto5 from '../../assets/port4.webp'
-import Proto6 from '../../assets/port6.webp'
+import Proto5 from '../../assets/CMS_DETECTOR.png'
+import Proto6 from '../../assets/FOR NOW.png'
 import Proto7 from '../../assets/aman_mern_blog.png'
 import Proto8 from '../../assets/aman_next_blog.png'
 
@@ -42,16 +42,16 @@ demo:'https://guileless-crisp-5b2a7d.netlify.app/'
 {
   id:5,
   image:Proto5,
-  title:'Ethiopian_beauty',
+  title:'A SYSTEM WHICH DETECTS IF A WEBSITE IS CMS(WORDPRESS... etc)',
   github:'https://github.com',
-demo:'https://guileless-crisp-5b2a7d.netlify.app/'
+demo:'https://cms-detector-ag41.vercel.app/'
 },
 {
   id:6,
   image:Proto6,
-  title:'Ethiopian_beauty',
+  title:'PORTFOLIO OPTIMIZER SYSTEM WHICH IS MACHILE LEARNING SYSTEM',
   github:'https://github.com',
-  demo:'https://guileless-crisp-5b2a7d.netlify.app/'
+  demo:'https://10-acadamy-week12-finaly-project-amanuels-projects-1500501f.vercel.app/'
 },
 {
   id:7,

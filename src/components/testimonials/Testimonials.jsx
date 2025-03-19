@@ -14,12 +14,9 @@ const testimonials = () => {
           <img src={Image2} alt="testimonial"/>
          
         </div>
-        <h5 className="client__name">Fre</h5>
+        <h5 className="client__name">client one</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Nemo delectus dolorum
-             ex repellendus magni atque ipsum velit 
-             unde sapiente vel.
+          COMING SOON...
           </small>
         </article>
 
@@ -28,12 +25,9 @@ const testimonials = () => {
           <img src={Image2} alt="testimonial"/>
          
         </div>
-        <h5 className="client__name">Fre</h5>
+        <h5 className="client__name">client two</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Nemo delectus dolorum
-             ex repellendus magni atque ipsum velit 
-             unde sapiente vel.
+            COMING SOON...
           </small>
         </article>
 
@@ -41,12 +35,9 @@ const testimonials = () => {
         <div className="client__avatar">
           <img src={Image1} alt="testimonial"/>
         </div>
-        <h5 className="client__name">Sasi</h5>
+        <h5 className="client__name">client three</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Nemo delectus dolorum
-             ex repellendus magni atque ipsum velit 
-             unde sapiente vel.
+          COMING SOON...
           </small>
         </article>
 

@@ -26,21 +26,19 @@ const About = () => {
   <article className="about__card">
     <FaUsers className="about__icon"/>
 <h5> Clients</h5>
-<small>300+ customers world wide</small>
+<small>still looking for them</small>
 
   </article>
   <article className="about__card">
     <VscFolderLibrary className="about__icon"/>
-<h5> expreance</h5>
-<small>Projects</small>
+<h5>projects </h5>
+<small>20+ Projects</small>
 
   </article>
 </div>
 
-<p>Amanuel nega is an
-   awesome designer and web developer
-   
-   If you’re looking for a source of design inspiration , you’re in the right place.
+<p>I’m a software engineer with a focus on full-stack development,mobile app development,machine learning and data driven solutions. Passionate about solving 
+  problems and building user-friendly solutions, I aim to make a positive impact through tech.
 
 </p>
 <Cta/>
